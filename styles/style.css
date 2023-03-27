@@ -27,6 +27,10 @@ color: #1e1e1e;
 line-height: 24px;
 
 }
+a:hover{
+    color:#20BC7E;
+    cursor:pointer;
+}
 nav img{
     width:150px;
 }
@@ -55,6 +59,11 @@ nav img{
     color: #7c7c7c;
     margin:20px 0;
 }
+.left-hero-section .pin-img{
+    width:50%;
+    top:170px;
+position: absolute;
+}
 .left-hero-section button{
     max-width: 400px;
     padding: 12px 35px;
@@ -62,9 +71,14 @@ nav img{
     text-align: center;
     font-size: 20px;
     font-weight: 900;
-    background-color:#20bc7e;
+    background-color:#20BC7E;
     color: #f0f4f5;
     border:none;
+    cursor: pointer;
+}
+button:hover{
+    background: transparent;
+    color:#1e1e1e;
 }
 .left-hero-section .bottom-img{
     margin-left: 329px;
@@ -182,6 +196,140 @@ font-weight: 500;
 }
 
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-top: 144px;
+}
+.card{
+    display:flex ;
+    flex-direction: row;
+    gap:30px;
+}
+.card>div{
+    width:150px;
+    height:60px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    text-align: center;
+    padding:5px 10px;
+       
+}
+.card>div>h1{
+   font-size: 24px; 
+   font-weight: 700;
+   color: #20BC7E;
+}
+.card>div>p{
+    font-size: 16px;
+    font-weight: 900;
+    
+}
+.info h1{
+    font-size: 34px;
+    color: #07925a;
+    font-weight: 900;
+}
+.info .text-info{
+    font-size:17px;
+    font-weight: 500;
+    
+
+}
+@media (max-width:600px){
+    .info{
+        margin-top: -55px;
+    }
+    .info h1{
+        font-size:30px;
+    }
+    .info .text-info{
+        font-size:12px;
+    }
+}
+.contact-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:85vh;
+}
+form{
+    width:350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form h1{
+    text-align: center;
+  }
+  form>div{
+   display: flex;
+   flex-direction: column;
+  }
+  form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  form div input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  form div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
+@media (max-width:600px){
+.contact-page{
+    margin-top:152px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
